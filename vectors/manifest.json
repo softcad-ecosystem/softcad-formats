@@ -1,0 +1,161 @@
+{
+  "schema": "SoftCAD synthetic signature fixtures v1.30.11",
+  "warning": "SIGNATURE EXAMPLES ONLY. These bytes are not valid CAD/TDB/Shield/TVW documents and cannot be used as format writers or normative vectors.",
+  "source": "SoftCAD 4.80.1 file identity registry + public TDB3 RC1 header constants",
+  "cases": {
+    "bad_header_crc.tdb3": {
+      "sha256": "38b1aa04b2af108de2eb83db06fae10e37175e5d1439a7355b98c5c2d15c56a0",
+      "size_bytes": 12288,
+      "identified": "TDB3",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "extension_conflict.tcb": {
+      "sha256": "4fdede40a3dd5946c8a00e6c5d74cdf61a235c63b8f4785d5c3efef0d009c343",
+      "size_bytes": 24,
+      "identified": "TXB",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "extension_only.tvw": {
+      "sha256": "2d2b718c36b5b5baad7a094b578c76d9602f9a06c7a1dab785c0c04da6982f49",
+      "size_bytes": 22,
+      "identified": "TVW",
+      "confidence": "unverified_extension",
+      "valid_document": false
+    },
+    "future_version_2.tdb3": {
+      "sha256": "f29b8331f6cbd348a39062e74729c309b518ac05f56a4663cfa2fa963e927f9d",
+      "size_bytes": 12288,
+      "identified": "TDB3",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "header_only.cgb": {
+      "sha256": "24ac0528d7fa59da1d8893659488b9ee8c59de2ad5f49368b594a4957fc7e40b",
+      "size_bytes": 34,
+      "identified": "CGB",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "header_only.dwg": {
+      "sha256": "9711686c28fa53a351373a31a440a8b62f9daf4e550ed3275b107200dc98cfd5",
+      "size_bytes": 26,
+      "identified": "DWG",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "header_only.gpkg": {
+      "sha256": "8cfa8b3ac94ebd68a3fe8a53c5463162035841717c2204158e41fed0063c5232",
+      "size_bytes": 100,
+      "identified": "GPKG",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "header_only.pdf": {
+      "sha256": "e7826e8557625db1c50c01f169827b2cf21e5fa2c758713009db53ead11b0369",
+      "size_bytes": 29,
+      "identified": "PDF",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "header_only.tcad": {
+      "sha256": "7dcf577e2857d7b27e2c607e64e03323a22c68f5237d006f375f4e3ed6003eed",
+      "size_bytes": 29,
+      "identified": "TCAD",
+      "confidence": "text_prefix",
+      "valid_document": false
+    },
+    "header_only.tcb": {
+      "sha256": "7c03dbb21f51fa44810d44c747d682b19ffbbf4054f4829da54b82bfc39da18a",
+      "size_bytes": 34,
+      "identified": "TCB",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "header_only.tdb": {
+      "sha256": "eeacb8cfaca00f20827363562104fafbad73c6dbbc4cad902bc7f3606c68df98",
+      "size_bytes": 34,
+      "identified": "TDB",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "header_only.tdocb": {
+      "sha256": "37ec4c94ecfd7dddec645fe97bc7c4019bfbd26bb98c998a9e9d1d3640a8fdbf",
+      "size_bytes": 36,
+      "identified": "TDOCB",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "header_only.txb": {
+      "sha256": "cafa64e1f10895c26c82f9eeb6e8401af8eb48df5a2c6b183915df2928d55681",
+      "size_bytes": 34,
+      "identified": "TXB",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "not_recognized.bin": {
+      "sha256": "9a39c01f28fbb592a363d4f5c2a9c891b3a7592ee955969880d267c70f805ddc",
+      "size_bytes": 30,
+      "identified": "UNKNOWN",
+      "confidence": "unknown",
+      "valid_document": false
+    },
+    "old_dxb1.txb": {
+      "sha256": "dd505327b10d3b3ae7402a0f5a95fa30a86ccff332a37e2242eb8b2a96af7577",
+      "size_bytes": 34,
+      "identified": "TXB",
+      "confidence": "legacy_signature",
+      "valid_document": false
+    },
+    "react_source.tsx": {
+      "sha256": "0d8976694d086af31a208171a0d044a5eed8bb4a169f59fec3fa512f052809b0",
+      "size_bytes": 27,
+      "identified": "UNKNOWN",
+      "confidence": "unknown",
+      "valid_document": false
+    },
+    "shared_tdb1.tdba": {
+      "sha256": "eeacb8cfaca00f20827363562104fafbad73c6dbbc4cad902bc7f3606c68df98",
+      "size_bytes": 34,
+      "identified": "TDBA",
+      "confidence": "container_candidate",
+      "valid_document": false
+    },
+    "shield_header.tsx": {
+      "sha256": "109428c9d1c78ddfd2731369766eb18cb0575942f62668e49bbddcd77cc1ea63",
+      "size_bytes": 35,
+      "identified": "TSX",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "text_directive.tdoc": {
+      "sha256": "2e186db8b2257f01e0940f3c6e859763f6a9a328525886b2c8e7e6d18c96bb0a",
+      "size_bytes": 23,
+      "identified": "TDOC",
+      "confidence": "text_prefix",
+      "valid_document": false
+    },
+    "valid_crc_only.tdb3": {
+      "sha256": "aa57e0a668c568acd1bc6fabc7bf53de36e6c89a9ed2ea8a354a7113690b02f7",
+      "size_bytes": 12288,
+      "identified": "TDB3",
+      "confidence": "signature",
+      "valid_document": false
+    },
+    "zip_format_member.tdocb": {
+      "sha256": "215abb0ade711155031dd93b7ad0c5ba560bf5443e386a4f6d071d8a5e327aef",
+      "size_bytes": 162,
+      "identified": "TDOCB",
+      "confidence": "container_candidate",
+      "valid_document": false
+    },
+    "zip_without_format.tdocb": {
+      "sha256": "cd1fb0c206b977c49ad8a9a67bd63151cdb719c7f0c55b5c1ac82fe28cab5ef3",
+      "size_bytes": 157,
+      "identified": "TDOCB",
+      "confidence": "unverified_extension",
+      "valid_document": false
+    }
+  }
+}

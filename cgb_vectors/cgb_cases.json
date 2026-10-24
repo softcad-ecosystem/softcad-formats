@@ -1,0 +1,96 @@
+{
+  "source": "FileCommander v4.4.3 Linux native engine - observed CGB1; all values synthetic",
+  "scope": "Independent bounded header/offset validation ONLY, NOT CRC or semantic conformance",
+  "cases": {
+    "native_cgb1_two_lands_one_person_four_points.cgb": {
+      "sha256": "0c7ebc367c1d97d18269915ed1d1134eed8c5a25e064947514544fefb01b22ee",
+      "checked": true,
+      "verified_subset": true,
+      "reason": "observed_section_layout_consistent"
+    },
+    "native_cgb1_one_land_one_person.cgb": {
+      "sha256": "aadff94689472e2bb717602aaf888d7b15d4ac7afe470b13bedfa9f84746c98a",
+      "checked": true,
+      "verified_subset": true,
+      "reason": "observed_section_layout_consistent"
+    },
+    "native_cgb1_empty.cgb": {
+      "sha256": "d306cc056a71c75d8cc4069a84264d959fa38fdf33246ee74765fa188ec0348d",
+      "checked": true,
+      "verified_subset": true,
+      "reason": "observed_section_layout_consistent"
+    },
+    "invalid_magic.cgb": {
+      "sha256": "84998aedae814da18234c3f07f5c4324fb4f08f9c0dc3e3468e9d12c5d461ade",
+      "checked": false,
+      "verified_subset": false,
+      "reason": "not_cgb1"
+    },
+    "invalid_version.cgb": {
+      "sha256": "469c494f6b2a851608ed4c2727e3bdc2619cde7dcae006f04dc9d4fd2c9c69c8",
+      "checked": true,
+      "verified_subset": false,
+      "reason": "unsupported_cgb_version"
+    },
+    "invalid_first_offset.cgb": {
+      "sha256": "01e45649c3c26f094e58feaceaf7e0bb9c86a037ec01be0df170dcdbd1074eae",
+      "checked": true,
+      "verified_subset": false,
+      "reason": "unexpected_first_section_offset"
+    },
+    "invalid_non_monotonic_offsets.cgb": {
+      "sha256": "a747dacee7fa5f9a6fe098ba9659395ba329cd88d4db3df5485ef3735b78b2be",
+      "checked": true,
+      "verified_subset": false,
+      "reason": "section_offset_outside_file"
+    },
+    "invalid_strings_offset.cgb": {
+      "sha256": "39cdf3cd212537bbd2f1ee8b39184e9052211b474694ceaa617f4db8863675fb",
+      "checked": true,
+      "verified_subset": false,
+      "reason": "section_offset_outside_file"
+    },
+    "invalid_land_count.cgb": {
+      "sha256": "ff47d108c8db7f092d6e2c23f35221222d1ee79cc7e6193fefc6d467ca4316d5",
+      "checked": true,
+      "verified_subset": false,
+      "reason": "land_section_span_count_mismatch"
+    },
+    "invalid_person_count.cgb": {
+      "sha256": "dd495f7913f8199bcfc7e2e377f378b6e138241fca941a7799e26b44ac6d5b7e",
+      "checked": true,
+      "verified_subset": false,
+      "reason": "person_section_span_count_mismatch"
+    },
+    "invalid_points_count.cgb": {
+      "sha256": "a1aa788dcc961851901c3b8c460b804162635ed9181622f0a2d0ca52af4780d4",
+      "checked": true,
+      "verified_subset": false,
+      "reason": "point_section_span_count_mismatch"
+    },
+    "not_yet_supported_parcel_row.cgb": {
+      "sha256": "58c3fad32d52dc2a26656b63aba8bb9187948fe446ae7e49621097d7c0528f59",
+      "checked": true,
+      "verified_subset": false,
+      "reason": "parcel_building_record_layout_not_yet_covered"
+    },
+    "invalid_total_area.cgb": {
+      "sha256": "84cc1d111fade32e1a9c736fe83417610a9defd6373b5dc34d76db56bd22c253",
+      "checked": true,
+      "verified_subset": false,
+      "reason": "nonfinite_or_negative_aggregate_area"
+    },
+    "truncated_header.cgb": {
+      "sha256": "9978f1fe17a0fa8af3e7aee88e2c38ddd74b20f423ab056be598b6f992681301",
+      "checked": false,
+      "verified_subset": false,
+      "reason": "truncated_cgb1_header_140"
+    },
+    "tampered_record_content.cgb": {
+      "sha256": "72394f479494f63d647f1be3466c0c75facd61b3aecbe125b0ab4af014b65ad9",
+      "checked": true,
+      "verified_subset": true,
+      "reason": "observed_section_layout_consistent"
+    }
+  }
+}

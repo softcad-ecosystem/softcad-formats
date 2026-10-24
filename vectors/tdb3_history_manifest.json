@@ -1,0 +1,49 @@
+{
+  "status": "synthetic RC1 databases written by archived engine for test vectors; engine NOT distributed",
+  "actual_records": true,
+  "synthetic_data_only": true,
+  "scope": "active K commit ancestry only",
+  "max_commits": 64,
+  "cases": {
+    "tdb3_history_valid_4_commits.tdb3": {
+      "sha256": "065fc4ff5048b281d5ce764d685fe2de721075ba49b1d5c656a3b172d9cc8550",
+      "size": 14486,
+      "reason": "history_chain_valid_complete",
+      "commit_count": 4,
+      "verified": true,
+      "root_verified": true
+    },
+    "tdb3_history_corrupt_parent.tdb3": {
+      "sha256": "a47631225b7c1a2fa6e42b1a03826ba6bd56bc9557a65a964008b375755e9557",
+      "size": 14486,
+      "reason": "history_parent_sha256_mismatch",
+      "commit_count": 1,
+      "verified": false,
+      "root_verified": true
+    },
+    "tdb3_history_invalid_locator.tdb3": {
+      "sha256": "cf5eb178affa86121b4edf1b90628bb358028ba50cd9044db0e9a76c5aca47ef",
+      "size": 14486,
+      "reason": "history_parent_outside_commit",
+      "commit_count": 1,
+      "verified": false,
+      "root_verified": true
+    },
+    "tdb3_history_zlib_commit.tdb3": {
+      "sha256": "4deccbc628dab8016ad076bd85e46f785692cff268eb16a3a111b1e374cdcabf",
+      "size": 13835,
+      "reason": "history_chain_valid_complete",
+      "commit_count": 3,
+      "verified": true,
+      "root_verified": true
+    },
+    "tdb3_history_over_64_commits.tdb3": {
+      "sha256": "4d770e63903ed7d909816ec9fd95aef35e5ff30295a7c3f8a7076374685ac14b",
+      "size": 64792,
+      "reason": "history_chain_limit_reached",
+      "commit_count": 64,
+      "verified": false,
+      "root_verified": true
+    }
+  }
+}

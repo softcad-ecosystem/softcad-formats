@@ -1,0 +1,616 @@
+{
+  "source_site_release": "1.30.26",
+  "prepared_on": "2026-10-24",
+  "files": {
+    ".gitignore": {
+      "sha256": "8e1f61dce807be4f891bbda7603ab85c40f6d506b9bdcf0049808a07b01e3847",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "CGB1_OBSERVED_SUBSET_RO_EN.md": {
+      "sha256": "c444666407c93d00f1bf7161f96b1b4ace7fba395cae8704115a3685f8b2e760",
+      "source_site_path": "downloads/developer-docs/formats/CGB1_OBSERVED_SUBSET_RO_EN.md",
+      "new_editorial_file": false
+    },
+    "CONTRIBUTING.md": {
+      "sha256": "96112c975ac6774748d17a9442964c9f877df7b5d67a3af31be81157ca84330c",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source_site_path": "downloads/developer-docs/formats/LICENSE-APACHE-2.0.txt",
+      "new_editorial_file": false
+    },
+    "NOTICE.md": {
+      "sha256": "da88d5c50ecefd38b9165c1cd0f52bfdaec3e1bb2c13d785a81cbd5766b2dc7d",
+      "source_site_path": "downloads/developer-docs/formats/NOTICE.md",
+      "new_editorial_file": false
+    },
+    "README.md": {
+      "sha256": "adc12f6137a0e8a06c0304c7b5f70f10e916232d4ed5f0a4fa152a0abbf5e86f",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "README_RO.md": {
+      "sha256": "7051997c9b2f0a60ff24364bf6cea78659c1af3c69ace4ee54cbf4c512ddc228",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "README_RO_EN.md": {
+      "sha256": "bc18bdd189733b7888f82495f55aecab55ce023a0643c7ab479b597510954c72",
+      "source_site_path": "downloads/developer-docs/formats/README_RO_EN.md",
+      "new_editorial_file": false
+    },
+    "RECOGNITION_CONTRACT_RO_EN.md": {
+      "sha256": "ad7c6272261f85495a922739a63d92d1af29c1f6f40b91d79a92277a900f6cf1",
+      "source_site_path": "downloads/developer-docs/formats/RECOGNITION_CONTRACT_RO_EN.md",
+      "new_editorial_file": false
+    },
+    "SECURITY.md": {
+      "sha256": "600bc0b150f4d3747cc606a994398d4179ed68d6197c9fc6ac3449578445a929",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "TCAD20_OBSERVED_SUBSET_RO_EN.md": {
+      "sha256": "3b2322aba64c54e9b4ac39f8c751d26ac288575865ef370c713e9fe89b1e0ce9",
+      "source_site_path": "downloads/developer-docs/formats/TCAD20_OBSERVED_SUBSET_RO_EN.md",
+      "new_editorial_file": false
+    },
+    "TCB_TXB_TVW_INTEGRATION_GATE_RO_EN.md": {
+      "sha256": "1a5263b6b118b105e3c62e6cfbe56c83b5d8dcf9c83936aebc9a446eaaac6fd2",
+      "source_site_path": "downloads/developer-docs/formats/TCB_TXB_TVW_INTEGRATION_GATE_RO_EN.md",
+      "new_editorial_file": false
+    },
+    "TDB3_COMMIT_ANCESTRY_RC1_RO_EN.md": {
+      "sha256": "918107bd9d60a5a6a0efe27f9fdf4b8603ba15834a15953cebc6cb2d5e2d31a6",
+      "source_site_path": "downloads/developer-docs/formats/TDB3_COMMIT_ANCESTRY_RC1_RO_EN.md",
+      "new_editorial_file": false
+    },
+    "TDB3_QUERY_REFERENCE_RC1.md": {
+      "sha256": "cfda0f4beacf81d31b9ca4941155815eca5fc125b19cf2cdb19d31f36ba3f633",
+      "source_site_path": "downloads/developer-docs/formats/TDB3_QUERY_REFERENCE_RC1.md",
+      "new_editorial_file": false
+    },
+    "TDB3_REAL_RC1_ROOT_REFERENCE_RO_EN.md": {
+      "sha256": "263343f5ba78c25f1b3776db57daac647194fbed7d8a6bcee2884d3d3d49ea0a",
+      "source_site_path": "downloads/developer-docs/formats/TDB3_REAL_RC1_ROOT_REFERENCE_RO_EN.md",
+      "new_editorial_file": false
+    },
+    "TDB3_TECHNICAL_RC1_SOURCE_REFERENCE.md": {
+      "sha256": "90f040a73b46a7ed2ae9f41bc1a3b6b4072276cd04bb7fc6b96b9780b1e82717",
+      "source_site_path": "downloads/developer-docs/formats/TDB3_TECHNICAL_RC1_SOURCE_REFERENCE.md",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/cgb_cases.json": {
+      "sha256": "31686dd2b78c7f18946841900ec077aef57ce1540c976188a4f08e923489ff12",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/cgb_cases.json",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/invalid_first_offset.cgb": {
+      "sha256": "01e45649c3c26f094e58feaceaf7e0bb9c86a037ec01be0df170dcdbd1074eae",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/invalid_first_offset.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/invalid_land_count.cgb": {
+      "sha256": "ff47d108c8db7f092d6e2c23f35221222d1ee79cc7e6193fefc6d467ca4316d5",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/invalid_land_count.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/invalid_magic.cgb": {
+      "sha256": "84998aedae814da18234c3f07f5c4324fb4f08f9c0dc3e3468e9d12c5d461ade",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/invalid_magic.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/invalid_non_monotonic_offsets.cgb": {
+      "sha256": "a747dacee7fa5f9a6fe098ba9659395ba329cd88d4db3df5485ef3735b78b2be",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/invalid_non_monotonic_offsets.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/invalid_person_count.cgb": {
+      "sha256": "dd495f7913f8199bcfc7e2e377f378b6e138241fca941a7799e26b44ac6d5b7e",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/invalid_person_count.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/invalid_points_count.cgb": {
+      "sha256": "a1aa788dcc961851901c3b8c460b804162635ed9181622f0a2d0ca52af4780d4",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/invalid_points_count.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/invalid_strings_offset.cgb": {
+      "sha256": "39cdf3cd212537bbd2f1ee8b39184e9052211b474694ceaa617f4db8863675fb",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/invalid_strings_offset.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/invalid_total_area.cgb": {
+      "sha256": "84cc1d111fade32e1a9c736fe83417610a9defd6373b5dc34d76db56bd22c253",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/invalid_total_area.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/invalid_version.cgb": {
+      "sha256": "469c494f6b2a851608ed4c2727e3bdc2619cde7dcae006f04dc9d4fd2c9c69c8",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/invalid_version.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/native_cgb1_empty.cgb": {
+      "sha256": "d306cc056a71c75d8cc4069a84264d959fa38fdf33246ee74765fa188ec0348d",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/native_cgb1_empty.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/native_cgb1_one_land_one_person.cgb": {
+      "sha256": "aadff94689472e2bb717602aaf888d7b15d4ac7afe470b13bedfa9f84746c98a",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/native_cgb1_one_land_one_person.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/native_cgb1_two_lands_one_person_four_points.cgb": {
+      "sha256": "0c7ebc367c1d97d18269915ed1d1134eed8c5a25e064947514544fefb01b22ee",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/native_cgb1_two_lands_one_person_four_points.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/native_cgb1_two_lands_one_person_four_points.cgxml": {
+      "sha256": "686347e4ad1750096d425714b31cc96489b60a34d70e0b5d5f26ec30dce382aa",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/native_cgb1_two_lands_one_person_four_points.cgxml",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/not_yet_supported_parcel_row.cgb": {
+      "sha256": "58c3fad32d52dc2a26656b63aba8bb9187948fe446ae7e49621097d7c0528f59",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/not_yet_supported_parcel_row.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/tampered_record_content.cgb": {
+      "sha256": "72394f479494f63d647f1be3466c0c75facd61b3aecbe125b0ab4af014b65ad9",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/tampered_record_content.cgb",
+      "new_editorial_file": false
+    },
+    "cgb_vectors/truncated_header.cgb": {
+      "sha256": "9978f1fe17a0fa8af3e7aee88e2c38ddd74b20f423ab056be598b6f992681301",
+      "source_site_path": "downloads/developer-docs/formats/cgb_vectors/truncated_header.cgb",
+      "new_editorial_file": false
+    },
+    "generate_synthetic_vectors.py": {
+      "sha256": "244cb89b672ce3757b610cbf7bb41bb43681160bf4ece5df75fa457c3c3cf2b8",
+      "source_site_path": "downloads/developer-docs/formats/generate_synthetic_vectors.py",
+      "new_editorial_file": false
+    },
+    "interop_vectors/dxb_external_unrecognized.dxb": {
+      "sha256": "d62f6e6f4e175a9bbc122e421f2cfeaf0808a20afee57e8d774d7db0cd2f4553",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/dxb_external_unrecognized.dxb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/dxb_legacy_collision.dxb": {
+      "sha256": "3350bac68394970b1c80b10055df6d5759aa842f356bc9b080320917d219bd52",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/dxb_legacy_collision.dxb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/dxb_txb_collision.dxb": {
+      "sha256": "63d114019a53d1b3a7f0e1dbc08538b8a7da035aa75f93bbe97101241ce6abe0",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/dxb_txb_collision.dxb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/manifest.json": {
+      "sha256": "f139fef6c64af6206242b30d434ec53d37576c8b9b4d938da60f40bbd25caae9",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/manifest.json",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tcb_extension_conflict.tcb": {
+      "sha256": "63d114019a53d1b3a7f0e1dbc08538b8a7da035aa75f93bbe97101241ce6abe0",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tcb_extension_conflict.tcb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tcb_prefix_only.tcb": {
+      "sha256": "d203b7adc5ad626b58811b50d9f2a7e67a085fa27e9e5792da115aa73b04b0a4",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tcb_prefix_only.tcb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tcb_signature.tcb": {
+      "sha256": "7d676d8d6f96735f4086a5ae22f58ee86e113f72b987a560ac75bb2fe1050d39",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tcb_signature.tcb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tcb_truncated.tcb": {
+      "sha256": "4027d65fd30f37b0bffb8dfb8308ea1ec27efa4c4c295bbef6e16604f70c60c7",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tcb_truncated.tcb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tvw_binary.tvw": {
+      "sha256": "e07c182c322c190d8385dd46513ebfb00ac2ac0a84105fa1dc8f8cef9db491f5",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tvw_binary.tvw",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tvw_bom_candidate.tvw": {
+      "sha256": "ef861fd72a9294bf1fb2347d7240e745c4b0c130a976aa7da405a2e8cbc4ec7e",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tvw_bom_candidate.tvw",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tvw_control_character.tvw": {
+      "sha256": "4777a5cd77a484a60f840dd2a68fa206ccddc2a6f5d7f6260d83bf8ce59f89da",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tvw_control_character.tvw",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tvw_empty.tvw": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tvw_empty.tvw",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tvw_invalid_utf8.tvw": {
+      "sha256": "b72b72895964c475162e15c37a7e466815c7248a6de103b1a235215af433dbd0",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tvw_invalid_utf8.tvw",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tvw_limit.tvw": {
+      "sha256": "767a15be191f4f4189193d8b827ff844dc6d75b4d67f64b79fc1b9e7c3800cc1",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tvw_limit.tvw",
+      "new_editorial_file": false
+    },
+    "interop_vectors/tvw_utf8_candidate.tvw": {
+      "sha256": "7ffd35458b372df1bcea0b7e1a05a6315e68f541363fd638ee2d1958da18058b",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/tvw_utf8_candidate.tvw",
+      "new_editorial_file": false
+    },
+    "interop_vectors/txb_extension_conflict.txb": {
+      "sha256": "826be98a631a9724e3e75b31843673d9e762a4ff4af51bdc1511831afd931220",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/txb_extension_conflict.txb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/txb_legacy.txb": {
+      "sha256": "37a249fa25b21ca82448c66738803cd5874f7676ac3e7af68685e08b43ad1015",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/txb_legacy.txb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/txb_prefix_only.txb": {
+      "sha256": "314ce25889cf7021cc79b30aead3f34c2c08f0742dbd43680105deda394d9128",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/txb_prefix_only.txb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/txb_signature.txb": {
+      "sha256": "24b78f719e26fb2c45d1c89dcd86f5a274df8090d274f175a23a9dc329a8a851",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/txb_signature.txb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/txb_truncated.txb": {
+      "sha256": "0bbcf137fa4ea2895769e2d5571b3fd681aa4697186b83ca1abc13a0f9d4eb6e",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/txb_truncated.txb",
+      "new_editorial_file": false
+    },
+    "interop_vectors/txbi_auxiliary.txbi": {
+      "sha256": "fcea116ac2eca197733c77818abf25d603f3b2b3da0e100854ece4bc4291d9c5",
+      "source_site_path": "downloads/developer-docs/formats/interop_vectors/txbi_auxiliary.txbi",
+      "new_editorial_file": false
+    },
+    "softcad-cgb1.js": {
+      "sha256": "75d2c8dbca4f690f0c060d1b0e897ac2a5bfd4cf66768e47c49059bbeb824fa8",
+      "source_site_path": "downloads/developer-docs/formats/softcad-cgb1.js",
+      "new_editorial_file": false
+    },
+    "softcad-file-registry-1.30.16.json": {
+      "sha256": "417bb678c742b0651b106158931a1faeace839a0b4ea4d185e5563de11096b70",
+      "source_site_path": "downloads/developer-docs/formats/softcad-file-registry-1.30.16.json",
+      "new_editorial_file": false
+    },
+    "softcad-format-core.js": {
+      "sha256": "99bad91180c6e20e293b4b6e0850b80d35bedc1c2e5f369f387df93761517847",
+      "source_site_path": "downloads/developer-docs/formats/softcad-format-core.js",
+      "new_editorial_file": false
+    },
+    "softcad-tcad20.js": {
+      "sha256": "f5d425778bbab1c201d08eba0ce5a1c53beaf981d90035983541fe4e01e64d02",
+      "source_site_path": "downloads/developer-docs/formats/softcad-tcad20.js",
+      "new_editorial_file": false
+    },
+    "softcad-tcb-txb-tvw-gate.js": {
+      "sha256": "75fd09db21fc2da24a0fe16cde99a2b78375712e9d3739e0a3dde1afa85924cc",
+      "source_site_path": "downloads/developer-docs/formats/softcad-tcb-txb-tvw-gate.js",
+      "new_editorial_file": false
+    },
+    "softcad-tdb3-history.js": {
+      "sha256": "65ae6f64184fb29b68bb6a9643f7fb0586f69dedf53087a431dfae492e017b94",
+      "source_site_path": "downloads/developer-docs/formats/softcad-tdb3-history.js",
+      "new_editorial_file": false
+    },
+    "softcad-tdb3-root.js": {
+      "sha256": "57bccceea267df4b47a1822f62bc0aee91eaefb6a116363995ba5919fce32be9",
+      "source_site_path": "downloads/developer-docs/formats/softcad-tdb3-root.js",
+      "new_editorial_file": false
+    },
+    "softcad_cgb1_probe.py": {
+      "sha256": "05868c0debc0f593aee693b8048c7ab451a0ed505f2bf96b91c26a1701d58f80",
+      "source_site_path": "downloads/developer-docs/formats/softcad_cgb1_probe.py",
+      "new_editorial_file": false
+    },
+    "softcad_format_probe.py": {
+      "sha256": "99a5b61236de43b23604ae2d7fb52730ccb9eea2fea0b781504c72a334fece54",
+      "source_site_path": "downloads/developer-docs/formats/softcad_format_probe.py",
+      "new_editorial_file": false
+    },
+    "softcad_tcad20_probe.py": {
+      "sha256": "6a6386b84acec063e2445a5b7011524fa9098ebfed3bd94fc98da34323c6e2c9",
+      "source_site_path": "downloads/developer-docs/formats/softcad_tcad20_probe.py",
+      "new_editorial_file": false
+    },
+    "softcad_tcb_txb_tvw_gate.py": {
+      "sha256": "78a713d576e386c2182aba213fc833efd5a12e294fcf5ba10d9cfc4af4dd6450",
+      "source_site_path": "downloads/developer-docs/formats/softcad_tcb_txb_tvw_gate.py",
+      "new_editorial_file": false
+    },
+    "tdb3_commit_chain.py": {
+      "sha256": "6fdd7624cc1c09e333becb47fdeab157ee54efcf485b3ea19d2da5c0b789182b",
+      "source_site_path": "downloads/developer-docs/formats/tdb3_commit_chain.py",
+      "new_editorial_file": false
+    },
+    "tdb3_root_probe.py": {
+      "sha256": "193941bb455728faddb6382d6417a982a62b6e108491883225f099e534f6c2c3",
+      "source_site_path": "downloads/developer-docs/formats/tdb3_root_probe.py",
+      "new_editorial_file": false
+    },
+    "test_cgb1.cjs": {
+      "sha256": "dcf24ec986af510a74098896c63da32da115aac1f6f9b62dbed63131b3e3cd55",
+      "source_site_path": "downloads/developer-docs/formats/test_cgb1.cjs",
+      "new_editorial_file": false
+    },
+    "test_cgb1.py": {
+      "sha256": "12ac7164ebb6c11e842df45b1c6885589c305afac8f28de3b4766099a33bf689",
+      "source_site_path": "downloads/developer-docs/formats/test_cgb1.py",
+      "new_editorial_file": false
+    },
+    "test_format_core.cjs": {
+      "sha256": "42bc1d2d6326cbf8f269ee855b84432b1481c7e2137f3fc1895a90047065c169",
+      "source_site_path": "downloads/developer-docs/formats/test_format_core.cjs",
+      "new_editorial_file": false
+    },
+    "test_real_tdb3.cjs": {
+      "sha256": "7f107c6ab26b781a19369703abf256ba129b8474c032bf0c5c2f83f33931abb5",
+      "source_site_path": "downloads/developer-docs/formats/test_real_tdb3.cjs",
+      "new_editorial_file": false
+    },
+    "test_real_tdb3.py": {
+      "sha256": "9fe6908bce93121ca394b47fdbcfd3e300df3fd0a0487c9fe97a21c6fcf7f96e",
+      "source_site_path": "downloads/developer-docs/formats/test_real_tdb3.py",
+      "new_editorial_file": false
+    },
+    "test_softcad_format_probe.py": {
+      "sha256": "c8fd992b192e95158a305dcdd02b046648ef3649262e2189c72a2e1953c616da",
+      "source_site_path": "downloads/developer-docs/formats/test_softcad_format_probe.py",
+      "new_editorial_file": false
+    },
+    "test_synthetic_vectors.py": {
+      "sha256": "bf0af6e5f0bad07d6d23ec3203a8e7322f79cdbc13b5c739035f32ac535a1a80",
+      "source_site_path": "downloads/developer-docs/formats/test_synthetic_vectors.py",
+      "new_editorial_file": false
+    },
+    "test_tcad20.cjs": {
+      "sha256": "fb0f683ec957ddb11e3b14bd98f1e448137dc8bf5851533dbdca8797314dc166",
+      "source_site_path": "downloads/developer-docs/formats/test_tcad20.cjs",
+      "new_editorial_file": false
+    },
+    "test_tcad20.py": {
+      "sha256": "07ada9df18fbcf78a6c4e8376323fff814d12c88d5d7516f23582d593bcd339f",
+      "source_site_path": "downloads/developer-docs/formats/test_tcad20.py",
+      "new_editorial_file": false
+    },
+    "test_tcb_txb_tvw_gate.cjs": {
+      "sha256": "455f7f8a44458352ccf1aa4e831f979601b74a9775e084bdf98fcd04aacc891d",
+      "source_site_path": "downloads/developer-docs/formats/test_tcb_txb_tvw_gate.cjs",
+      "new_editorial_file": false
+    },
+    "test_tcb_txb_tvw_gate.py": {
+      "sha256": "2f842558262c5599446a277e3e75faff6b7931f33b422aac745218c6f984760e",
+      "source_site_path": "downloads/developer-docs/formats/test_tcb_txb_tvw_gate.py",
+      "new_editorial_file": false
+    },
+    "test_tdb3_history.cjs": {
+      "sha256": "7615255ef40b183384d0e3fd938bb753d761f0b99fc0179b99fdf39bc3ec6755",
+      "source_site_path": "downloads/developer-docs/formats/test_tdb3_history.cjs",
+      "new_editorial_file": false
+    },
+    "test_tdb3_history.py": {
+      "sha256": "97825a00a70681ec329d8aa4358db727954a5f2901831d31872136c1ecae120d",
+      "source_site_path": "downloads/developer-docs/formats/test_tdb3_history.py",
+      "new_editorial_file": false
+    },
+    "vectors/bad_header_crc.tdb3": {
+      "sha256": "38b1aa04b2af108de2eb83db06fae10e37175e5d1439a7355b98c5c2d15c56a0",
+      "source_site_path": "downloads/developer-docs/formats/vectors/bad_header_crc.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/extension_conflict.tcb": {
+      "sha256": "4fdede40a3dd5946c8a00e6c5d74cdf61a235c63b8f4785d5c3efef0d009c343",
+      "source_site_path": "downloads/developer-docs/formats/vectors/extension_conflict.tcb",
+      "new_editorial_file": false
+    },
+    "vectors/extension_only.tvw": {
+      "sha256": "2d2b718c36b5b5baad7a094b578c76d9602f9a06c7a1dab785c0c04da6982f49",
+      "source_site_path": "downloads/developer-docs/formats/vectors/extension_only.tvw",
+      "new_editorial_file": false
+    },
+    "vectors/future_version_2.tdb3": {
+      "sha256": "f29b8331f6cbd348a39062e74729c309b518ac05f56a4663cfa2fa963e927f9d",
+      "source_site_path": "downloads/developer-docs/formats/vectors/future_version_2.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/header_only.cgb": {
+      "sha256": "24ac0528d7fa59da1d8893659488b9ee8c59de2ad5f49368b594a4957fc7e40b",
+      "source_site_path": "downloads/developer-docs/formats/vectors/header_only.cgb",
+      "new_editorial_file": false
+    },
+    "vectors/header_only.dwg": {
+      "sha256": "9711686c28fa53a351373a31a440a8b62f9daf4e550ed3275b107200dc98cfd5",
+      "source_site_path": "downloads/developer-docs/formats/vectors/header_only.dwg",
+      "new_editorial_file": false
+    },
+    "vectors/header_only.gpkg": {
+      "sha256": "8cfa8b3ac94ebd68a3fe8a53c5463162035841717c2204158e41fed0063c5232",
+      "source_site_path": "downloads/developer-docs/formats/vectors/header_only.gpkg",
+      "new_editorial_file": false
+    },
+    "vectors/header_only.pdf": {
+      "sha256": "e7826e8557625db1c50c01f169827b2cf21e5fa2c758713009db53ead11b0369",
+      "source_site_path": "downloads/developer-docs/formats/vectors/header_only.pdf",
+      "new_editorial_file": false
+    },
+    "vectors/header_only.tcad": {
+      "sha256": "7dcf577e2857d7b27e2c607e64e03323a22c68f5237d006f375f4e3ed6003eed",
+      "source_site_path": "downloads/developer-docs/formats/vectors/header_only.tcad",
+      "new_editorial_file": false
+    },
+    "vectors/header_only.tcb": {
+      "sha256": "7c03dbb21f51fa44810d44c747d682b19ffbbf4054f4829da54b82bfc39da18a",
+      "source_site_path": "downloads/developer-docs/formats/vectors/header_only.tcb",
+      "new_editorial_file": false
+    },
+    "vectors/header_only.tdb": {
+      "sha256": "eeacb8cfaca00f20827363562104fafbad73c6dbbc4cad902bc7f3606c68df98",
+      "source_site_path": "downloads/developer-docs/formats/vectors/header_only.tdb",
+      "new_editorial_file": false
+    },
+    "vectors/header_only.tdocb": {
+      "sha256": "37ec4c94ecfd7dddec645fe97bc7c4019bfbd26bb98c998a9e9d1d3640a8fdbf",
+      "source_site_path": "downloads/developer-docs/formats/vectors/header_only.tdocb",
+      "new_editorial_file": false
+    },
+    "vectors/header_only.txb": {
+      "sha256": "cafa64e1f10895c26c82f9eeb6e8401af8eb48df5a2c6b183915df2928d55681",
+      "source_site_path": "downloads/developer-docs/formats/vectors/header_only.txb",
+      "new_editorial_file": false
+    },
+    "vectors/manifest.json": {
+      "sha256": "2a9cb6e95143a1231513ef42458c876012eae02203d655b5bed505ffab0e114b",
+      "source_site_path": "downloads/developer-docs/formats/vectors/manifest.json",
+      "new_editorial_file": false
+    },
+    "vectors/not_recognized.bin": {
+      "sha256": "9a39c01f28fbb592a363d4f5c2a9c891b3a7592ee955969880d267c70f805ddc",
+      "source_site_path": "downloads/developer-docs/formats/vectors/not_recognized.bin",
+      "new_editorial_file": false
+    },
+    "vectors/old_dxb1.txb": {
+      "sha256": "dd505327b10d3b3ae7402a0f5a95fa30a86ccff332a37e2242eb8b2a96af7577",
+      "source_site_path": "downloads/developer-docs/formats/vectors/old_dxb1.txb",
+      "new_editorial_file": false
+    },
+    "vectors/react_source.tsx": {
+      "sha256": "0d8976694d086af31a208171a0d044a5eed8bb4a169f59fec3fa512f052809b0",
+      "source_site_path": "downloads/developer-docs/formats/vectors/react_source.tsx",
+      "new_editorial_file": false
+    },
+    "vectors/real_rc1_manifest.json": {
+      "sha256": "448d524d3de763138f0d94a9bfb6793c713c5f6b5f429f5f12f06cefa7138956",
+      "source_site_path": "downloads/developer-docs/formats/vectors/real_rc1_manifest.json",
+      "new_editorial_file": false
+    },
+    "vectors/shared_tdb1.tdba": {
+      "sha256": "eeacb8cfaca00f20827363562104fafbad73c6dbbc4cad902bc7f3606c68df98",
+      "source_site_path": "downloads/developer-docs/formats/vectors/shared_tdb1.tdba",
+      "new_editorial_file": false
+    },
+    "vectors/shield_header.tsx": {
+      "sha256": "109428c9d1c78ddfd2731369766eb18cb0575942f62668e49bbddcd77cc1ea63",
+      "source_site_path": "downloads/developer-docs/formats/vectors/shield_header.tsx",
+      "new_editorial_file": false
+    },
+    "vectors/tcad20_two_parcels_real_engine.tcad": {
+      "sha256": "03725c2d2331dda41edb658a1d1501f9f965e872f587e13fc3a75c0ded8de6c2",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tcad20_two_parcels_real_engine.tcad",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_history_corrupt_parent.tdb3": {
+      "sha256": "a47631225b7c1a2fa6e42b1a03826ba6bd56bc9557a65a964008b375755e9557",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_history_corrupt_parent.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_history_invalid_locator.tdb3": {
+      "sha256": "cf5eb178affa86121b4edf1b90628bb358028ba50cd9044db0e9a76c5aca47ef",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_history_invalid_locator.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_history_manifest.json": {
+      "sha256": "5865c33bd772ffd49db515b31cb1ad2cd81affc80578fddf35239a34572278ab",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_history_manifest.json",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_history_over_64_commits.tdb3": {
+      "sha256": "4d770e63903ed7d909816ec9fd95aef35e5ff30295a7c3f8a7076374685ac14b",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_history_over_64_commits.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_history_over_64_commits.tdb3.tdb3-lacat": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_history_over_64_commits.tdb3.tdb3-lacat",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_history_valid_4_commits.tdb3": {
+      "sha256": "065fc4ff5048b281d5ce764d685fe2de721075ba49b1d5c656a3b172d9cc8550",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_history_valid_4_commits.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_history_valid_4_commits.tdb3.tdb3-lacat": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_history_valid_4_commits.tdb3.tdb3-lacat",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_history_zlib_commit.tdb3": {
+      "sha256": "4deccbc628dab8016ad076bd85e46f785692cff268eb16a3a111b1e374cdcabf",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_history_zlib_commit.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_history_zlib_commit.tdb3.tdb3-lacat": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_history_zlib_commit.tdb3.tdb3-lacat",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_real_both_slots_corrupt.tdb3": {
+      "sha256": "f11856707cb50a7e08896f5bb2649c805039d071b1f04bcfbd125e67a317409e",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_real_both_slots_corrupt.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_real_corrupt_root.tdb3": {
+      "sha256": "adcf6a5e8de8d9183eae7717320b6f80b2d937622a6dc39653acfdf8027ecfe5",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_real_corrupt_root.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_real_recover_older_slot.tdb3": {
+      "sha256": "20796b6bf2f0a240d377c6ec31f1ebda9aa023a43e8eb49a95c03ba586c36515",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_real_recover_older_slot.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_real_root_outside_commit.tdb3": {
+      "sha256": "bd38fa78c6b13e3ff4396033dedabea94cb1f55b45b9599ab0512b75b3f4f4fe",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_real_root_outside_commit.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_real_uncommitted_tail.tdb3": {
+      "sha256": "106ccfe9f7738d2654c93de8b9808aa531a5067a256b0781611ed334b4eb4a23",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_real_uncommitted_tail.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_real_valid.tdb3": {
+      "sha256": "02e98cc8f6f578b4efb6dcfe7fdb994339981027c67df89561edebd8d69c4ab4",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_real_valid.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/tdb3_real_zlib_root.tdb3": {
+      "sha256": "2771b77c0817f3fdceafa3d6795bb96decc4623c8bedfa4fa940e725a3dd2dbb",
+      "source_site_path": "downloads/developer-docs/formats/vectors/tdb3_real_zlib_root.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/text_directive.tdoc": {
+      "sha256": "2e186db8b2257f01e0940f3c6e859763f6a9a328525886b2c8e7e6d18c96bb0a",
+      "source_site_path": "downloads/developer-docs/formats/vectors/text_directive.tdoc",
+      "new_editorial_file": false
+    },
+    "vectors/valid_crc_only.tdb3": {
+      "sha256": "aa57e0a668c568acd1bc6fabc7bf53de36e6c89a9ed2ea8a354a7113690b02f7",
+      "source_site_path": "downloads/developer-docs/formats/vectors/valid_crc_only.tdb3",
+      "new_editorial_file": false
+    },
+    "vectors/zip_format_member.tdocb": {
+      "sha256": "215abb0ade711155031dd93b7ad0c5ba560bf5443e386a4f6d071d8a5e327aef",
+      "source_site_path": "downloads/developer-docs/formats/vectors/zip_format_member.tdocb",
+      "new_editorial_file": false
+    },
+    "vectors/zip_without_format.tdocb": {
+      "sha256": "cd1fb0c206b977c49ad8a9a67bd63151cdb719c7f0c55b5c1ac82fe28cab5ef3",
+      "source_site_path": "downloads/developer-docs/formats/vectors/zip_without_format.tdocb",
+      "new_editorial_file": false
+    }
+  }
+}

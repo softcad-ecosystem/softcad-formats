@@ -1,0 +1,20 @@
+TCAD 2.0
+
+meta
+  crs:     "EPSG:3844"
+  profile: "cadastral"
+
+parcel P001
+  cadgen:     P001
+  area:       200.0
+  owner:      Fictiv A
+  intravilan: 0
+  ring:       0.0000,0.0000|20.0000,0.0000|20.0000,10.0000|0.0000,10.0000|0.0000,0.0000
+
+parcel P002
+  cadgen:     P002
+  area:       35.0
+  owner:      Fictiv B
+  intravilan: 0
+  ring:       35.0000,20.0000|40.0000,20.0000|40.0000,27.0000|35.0000,27.0000|35.0000,20.0000
+

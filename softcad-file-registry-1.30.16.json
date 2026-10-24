@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.30.16",
+  "date": "2026-10-23",
+  "scope": "Public file identification, limited native-observed subsets, and conservative TCB/TXB/TVW interoperability gate; NOT a normative binary or TVW grammar specification.",
+  "native": [
+    {
+      "id": "TCAD",
+      "extension": ".tcad",
+      "kind": "CAD text document",
+      "signature": "historical text TCAD 1.x OR observed text TCAD 2.0",
+      "evidence": "registry 4.80.1 + native engine write/reopen (FileCommander v4.4.3)",
+      "confidence": "historical_identity_and_observed_2_0_subset",
+      "codec": "HOLD; independent TCAD 2.0 subset parser only"
+    },
+    {
+      "id": "TCB",
+      "extension": ".tcb",
+      "kind": "CAD binary document",
+      "signature": "54434201",
+      "evidence": "registry 4.80.1",
+      "confidence": "magic_verified",
+      "codec": "HOLD",
+      "note": "TCB\\x01 prefix only. Strict envelope checks do NOT decode binary revisions/entities.",
+      "gate": "signature_only, signature_missing, signature_conflict; codec not released"
+    },
+    {
+      "id": "CGB",
+      "extension": ".cgb",
+      "kind": "Cadastral record exchange",
+      "signature": "43474231",
+      "evidence": "registry 4.80.1 + synthetic native engine roundtrip FileCommander v4.4.3 Linux (2026-10-23)",
+      "confidence": "magic_verified_plus_observed_header_subset",
+      "codec": "HOLD; independent header-only CGB1 reader, not a full codec",
+      "note": "CGB1 140-byte header, counts, offsets and 0 Parcel/Building span subset checked; 15 Python/JS parity vectors; canonical native engine not distributed"
+    },
+    {
+      "id": "TXB",
+      "extension": ".txb",
+      "kind": "Titan eXchange Binary for DXF",
+      "signature": "54584231",
+      "evidence": "registry 4.80.1",
+      "confidence": "magic_verified",
+      "codec": "HOLD",
+      "note": "TXB1 active identity; legacy DXB1 read-only candidate under .txb; .dxb Autodesk collision unresolved; .txbi auxiliary index only.",
+      "gate": "explicit .dxb ambiguity policy; no native decoder/encoder available"
+    },
+    {
+      "id": "TDB",
+      "extension": ".tdb",
+      "kind": "Data container / snapshots",
+      "signature": "54444231",
+      "evidence": "registry 4.80.1",
+      "confidence": "magic_verified",
+      "codec": "HOLD"
+    },
+    {
+      "id": "TDOC",
+      "extension": ".tdoc",
+      "kind": "Structured text document",
+      "signature": "@tdoc / @version / %TDOC (text)",
+      "evidence": "registry 4.80.1",
+      "confidence": "text_identification",
+      "codec": "HOLD"
+    },
+    {
+      "id": "TDOCB",
+      "extension": ".tdocb",
+      "kind": "Packed/binary document",
+      "signature": "54444f434201 or ZIP with FORMAT member",
+      "evidence": "registry 4.80.1",
+      "confidence": "magic_or_container_verified",
+      "codec": "HOLD"
+    },
+    {
+      "id": "TSS",
+      "extension": ".tss",
+      "kind": "TitanScript language source",
+      "signature": null,
+      "evidence": "registry 4.80.1 + TSS 2.5 reference",
+      "confidence": "extension_only",
+      "codec": "language_documented",
+      "note": "TSS STANDARD 2.5 language, standalone runtime still HOLD"
+    },
+    {
+      "id": "TSX",
+      "extension": ".tsx",
+      "kind": "Protected TSS script container",
+      "signature": "5453535800",
+      "evidence": "registry 4.80.1",
+      "confidence": "magic_verified",
+      "codec": "PRIVATE",
+      "note": "Not TypeScript/React TSX; Shield is excluded"
+    },
+    {
+      "id": "TVW",
+      "extension": ".tvw",
+      "kind": "TitanView declarative UI language source",
+      "signature": null,
+      "evidence": "registry 4.80.1 + owner-approved graphics API",
+      "confidence": "extension_only",
+      "codec": "language_approved_graphics_LGPL",
+      "note": "Language approved; only bounded UTF-8 text plausibility provided. Grammar and parser not yet independently verified.",
+      "gate": "text UTF-8 plausibility, not syntax validation or rendering; graphics LGPL separate"
+    }
+  ],
+  "external": [
+    {
+      "id": "CGXML",
+      "extension": ".cgxml",
+      "ownership": "ANCPI"
+    },
+    {
+      "id": "DWG",
+      "extension": ".dwg",
+      "ownership": "third-party"
+    },
+    {
+      "id": "DXF",
+      "extension": ".dxf",
+      "ownership": "third-party"
+    },
+    {
+      "id": "GPKG",
+      "extension": ".gpkg",
+      "ownership": "OGC"
+    },
+    {
+      "id": "PDF",
+      "extension": ".pdf",
+      "ownership": "third-party"
+    }
+  ],
+  "related": [
+    {
+      "id": "TDBA",
+      "extension": ".tdba",
+      "status": "technical extension: TDB1 container"
+    },
+    {
+      "id": "TDB3",
+      "extension": ".tdb3",
+      "status": "0.5.0 RC1 technical draft; runtime HOLD"
+    },
+    {
+      "id": "TCBG",
+      "extension": ".tcbg",
+      "status": "internal resilient TCB container"
+    },
+    {
+      "id": "TVCS",
+      "extension": ".tvcs",
+      "status": "TitanView internal command stream"
+    },
+    {
+      "id": "TVSC",
+      "extension": ".tvsc",
+      "status": "TitanView internal scene cache"
+    },
+    {
+      "id": "TVDB",
+      "extension": ".tvdb",
+      "status": "TitanView internal retained-scene data"
+    }
+  ],
+  "release_policy": {
+    "tvw_graphics": "OWNER_APPROVED_LGPL_3_0_OR_LATER_R2_OBJECT_NOT_VERIFIED",
+    "tss_standalone": "HOLD",
+    "tdb3_runtime": "HOLD",
+    "pytcad_codecs": "HOLD",
+    "Shield_TSX": "PROPRIETARY_NOT_INCLUDED"
+  },
+  "source_version": "1.30.13 + native TCAD 2.0 synthetic read/write observation",
+  "family_recognition_sdk": "signature_only_no_codec",
+  "synthetic_vectors_count": 22,
+  "recognition_contract": "RECOGNITION_CONTRACT_RO_EN.md",
+  "browser_entrypoints": [
+    "/verificator-formate.html",
+    "/en/file-inspector.html"
+  ],
+  "public_observed_subsets": {
+    "TCAD 2.0": {
+      "status": "ENGINE_GENERATED_SYNTHETIC_SUBSET_PY_NODE_PARITY",
+      "reference": "TCAD20_OBSERVED_SUBSET_RO_EN.md",
+      "fixture": "vectors/tcad20_two_parcels_real_engine.tcad",
+      "not_normative": true,
+      "public_writer": false,
+      "private_engine_included": false,
+      "limits": {
+        "max_bytes": 8388608,
+        "max_parcels": 2000
+      }
+    }
+  }
+}

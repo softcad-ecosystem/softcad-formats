@@ -1,0 +1,127 @@
+{
+  "description": "Synthetic identity/text plausibility vectors ONLY, not valid SoftCAD or Autodesk files.",
+  "schema_version": 1,
+  "format_version": "1.30.16",
+  "cases": {
+    "tcb_signature.tcb": {
+      "status": "signature_only",
+      "sha256": "7d676d8d6f96735f4086a5ae22f58ee86e113f72b987a560ac75bb2fe1050d39",
+      "size": 20,
+      "valid_document": false
+    },
+    "tcb_prefix_only.tcb": {
+      "status": "signature_only",
+      "sha256": "d203b7adc5ad626b58811b50d9f2a7e67a085fa27e9e5792da115aa73b04b0a4",
+      "size": 4,
+      "valid_document": false
+    },
+    "tcb_truncated.tcb": {
+      "status": "signature_missing",
+      "sha256": "4027d65fd30f37b0bffb8dfb8308ea1ec27efa4c4c295bbef6e16604f70c60c7",
+      "size": 3,
+      "valid_document": false
+    },
+    "tcb_extension_conflict.tcb": {
+      "status": "signature_conflict",
+      "sha256": "63d114019a53d1b3a7f0e1dbc08538b8a7da035aa75f93bbe97101241ce6abe0",
+      "size": 12,
+      "valid_document": false
+    },
+    "txb_signature.txb": {
+      "status": "signature_only",
+      "sha256": "24b78f719e26fb2c45d1c89dcd86f5a274df8090d274f175a23a9dc329a8a851",
+      "size": 20,
+      "valid_document": false
+    },
+    "txb_prefix_only.txb": {
+      "status": "signature_only",
+      "sha256": "314ce25889cf7021cc79b30aead3f34c2c08f0742dbd43680105deda394d9128",
+      "size": 4,
+      "valid_document": false
+    },
+    "txb_legacy.txb": {
+      "status": "legacy_read_only",
+      "sha256": "37a249fa25b21ca82448c66738803cd5874f7676ac3e7af68685e08b43ad1015",
+      "size": 16,
+      "valid_document": false
+    },
+    "txb_truncated.txb": {
+      "status": "signature_missing",
+      "sha256": "0bbcf137fa4ea2895769e2d5571b3fd681aa4697186b83ca1abc13a0f9d4eb6e",
+      "size": 3,
+      "valid_document": false
+    },
+    "txb_extension_conflict.txb": {
+      "status": "signature_conflict",
+      "sha256": "826be98a631a9724e3e75b31843673d9e762a4ff4af51bdc1511831afd931220",
+      "size": 10,
+      "valid_document": false
+    },
+    "dxb_legacy_collision.dxb": {
+      "status": "ambiguous_dxb_collision",
+      "sha256": "3350bac68394970b1c80b10055df6d5759aa842f356bc9b080320917d219bd52",
+      "size": 12,
+      "valid_document": false
+    },
+    "dxb_txb_collision.dxb": {
+      "status": "extension_collision",
+      "sha256": "63d114019a53d1b3a7f0e1dbc08538b8a7da035aa75f93bbe97101241ce6abe0",
+      "size": 12,
+      "valid_document": false
+    },
+    "dxb_external_unrecognized.dxb": {
+      "status": "external_dxb_outside_scope",
+      "sha256": "d62f6e6f4e175a9bbc122e421f2cfeaf0808a20afee57e8d774d7db0cd2f4553",
+      "size": 4,
+      "valid_document": false
+    },
+    "txbi_auxiliary.txbi": {
+      "status": "auxiliary_index",
+      "sha256": "fcea116ac2eca197733c77818abf25d603f3b2b3da0e100854ece4bc4291d9c5",
+      "size": 6,
+      "valid_document": false
+    },
+    "tvw_utf8_candidate.tvw": {
+      "status": "utf8_text_candidate",
+      "sha256": "7ffd35458b372df1bcea0b7e1a05a6315e68f541363fd638ee2d1958da18058b",
+      "size": 45,
+      "valid_document": false
+    },
+    "tvw_bom_candidate.tvw": {
+      "status": "utf8_text_candidate",
+      "sha256": "ef861fd72a9294bf1fb2347d7240e745c4b0c130a976aa7da405a2e8cbc4ec7e",
+      "size": 15,
+      "valid_document": false
+    },
+    "tvw_binary.tvw": {
+      "status": "binary_controls",
+      "sha256": "e07c182c322c190d8385dd46513ebfb00ac2ac0a84105fa1dc8f8cef9db491f5",
+      "size": 10,
+      "valid_document": false
+    },
+    "tvw_invalid_utf8.tvw": {
+      "status": "not_utf8_text",
+      "sha256": "b72b72895964c475162e15c37a7e466815c7248a6de103b1a235215af433dbd0",
+      "size": 5,
+      "valid_document": false
+    },
+    "tvw_empty.tvw": {
+      "status": "empty_source",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "valid_document": false
+    },
+    "tvw_control_character.tvw": {
+      "status": "binary_controls",
+      "sha256": "4777a5cd77a484a60f840dd2a68fa206ccddc2a6f5d7f6260d83bf8ce59f89da",
+      "size": 11,
+      "valid_document": false
+    },
+    "tvw_limit.tvw": {
+      "status": "source_size_limit",
+      "sha256": "767a15be191f4f4189193d8b827ff844dc6d75b4d67f64b79fc1b9e7c3800cc1",
+      "size": 65537,
+      "valid_document": false
+    }
+  }
+}
